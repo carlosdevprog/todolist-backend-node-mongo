@@ -7,7 +7,6 @@ const mongoose = require('mongoose')
 
 
 const app = express()
-const port = process.env.PORT || 5000
 
 const routes = require('./routes/ToDoRoute')
 
@@ -21,4 +20,7 @@ mongoose
 
 app.use(routes)
 
-app.listen(port, () => console.log(`Servidor rodando na porta: ${port} 🚀`))
+app.listen({
+    host: '0.0.0.0',
+    port: process.env.PORT ?? 5000
+})
