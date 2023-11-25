@@ -4,6 +4,7 @@
   "description": "",
   "main": "Server.js",
   "scripts": {
+    "preinstall": "nvm use",
     "start": "node Server.js",
     "go": "nodemon Server.js"
     
