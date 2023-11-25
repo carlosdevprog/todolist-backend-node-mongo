@@ -2,10 +2,10 @@
   "name": "todolist-backend-node-mongo",
   "version": "1.0.0",
   "description": "",
-  "main": "Server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node Server.js",
-    "go": "nodemon Server.js"
+    "start": "node server.js",
+    "go": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
