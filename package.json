@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "Server.js",
-  "scripts": {
-    "preinstall": "nvm use",
+  "scripts": {    
     "start": "node Server.js",
     "go": "nodemon Server.js"
   },
